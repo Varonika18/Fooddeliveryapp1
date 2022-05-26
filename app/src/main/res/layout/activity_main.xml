@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image1"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        xmlns:android="schemas.android.com/apk/res/android"
+        android:layout_width="333dp"
+        android:layout_height="357dp"
+        android:background="@drawable/backshape"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="APP NAME"
+            android:textAlignment="center"
+            android:textColor="#F81515"
+            android:textSize="37dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/signwithemail"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/btnr"
+            android:onClick="btnemail"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:gravity="center|center_horizontal"
+            android:paddingTop="4dp"
+            android:text="SIGN WITH EMAIL"
+            android:textSize="17dp" />
+
+        <Button
+            android:id="@+id/signwithphone"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="30dp"
+            android:onClick="btnphone"
+            android:background="@drawable/btnr"
+            android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+            android:gravity="center|center_horizontal"
+            android:paddingTop="4dp"
+            android:text="SIGN WITH PHONE"
+            android:textSize="17dp" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
