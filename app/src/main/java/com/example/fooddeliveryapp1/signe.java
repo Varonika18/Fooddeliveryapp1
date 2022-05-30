@@ -15,7 +15,7 @@ public class signe extends AppCompatActivity {
     }
 
     public void btnem(View view) {
-        Intent intent=new Intent(this,MainActivity2.class);
+        Intent intent=new Intent(this,MainActivity3.class);
         startActivity(intent);
     }
 }

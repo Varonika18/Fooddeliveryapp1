@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Fooddeliveryapp1">
         <activity
-            android:name=".detailActivity"
+            android:name=".MainActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
             android:exported="false" />
         <activity
             android:name=".SingP"
@@ -20,9 +23,6 @@
             android:exported="false" />
         <activity
             android:name=".payment"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity2"
             android:exported="false" />
         <activity
             android:name=".sp"
@@ -35,9 +35,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>
