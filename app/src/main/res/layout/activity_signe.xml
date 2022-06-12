@@ -40,6 +40,8 @@
             android:layout_marginTop="30dp"
             android:ems="10"
             android:hint="EMAIL"
+            android:textColor="#FA3434"
+            android:textColorHint="#FA4A4A"
             android:inputType="textPersonName"
             tools:ignore="TouchTargetSizeCheck" />
 
@@ -51,6 +53,8 @@
             android:layout_marginTop="30dp"
             android:ems="10"
             android:hint="PASSWORD"
+            android:textColor="#FA3434"
+            android:textColorHint="#FA4A4A"
             android:inputType="textPersonName"
             tools:ignore="TouchTargetSizeCheck" />
 

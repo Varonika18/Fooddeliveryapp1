@@ -40,6 +40,8 @@
             android:ems="10"
             android:hint="NAME"
             android:inputType="textPersonName"
+            android:textColor="#E43737"
+            android:textColorHint="#E13838"
             tools:ignore="TouchTargetSizeCheck" />
 
         <EditText
@@ -51,6 +53,8 @@
             android:ems="10"
             android:hint="PHONE NUMBER"
             android:inputType="textPersonName"
+            android:textColor="#E13232"
+            android:textColorHint="#DD3434"
             tools:ignore="TouchTargetSizeCheck" />
 
         <EditText
@@ -62,6 +66,8 @@
             android:ems="10"
             android:hint="ADDRESS"
             android:inputType="textPersonName"
+            android:textColor="#E63F3F"
+            android:textColorHint="#EF4646"
             tools:ignore="TouchTargetSizeCheck" />
 
     </LinearLayout>

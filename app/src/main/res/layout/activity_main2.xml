@@ -5,36 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity3">
+    tools:context=".MainActivity2">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:layout_marginTop="3dp"
+        android:layout_height="760dp"
         android:gravity="center"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/imageView5"
-            android:layout_width="60dp"
-            android:layout_height="40dp"
-            app:srcCompat="@drawable/ic_baseline_search_24" />
-
-        <EditText
-            android:id="@+id/editTextTextPersonName4"
-            android:layout_width="300dp"
-            android:layout_height="40dp"
-            android:ems="10"
-            android:hint="Search"
-            android:inputType="textPersonName"
-            tools:ignore="TouchTargetSizeCheck" />
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="No Item Yet"
+            android:textSize="42sp" />
     </LinearLayout>
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
-        android:layout_width="match_parent"
-        android:layout_height="688dp" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -45,7 +31,7 @@
         <LinearLayout
             android:layout_width="133dp"
             android:layout_height="match_parent"
-
+            android:onClick="resturent"
             android:orientation="vertical">
 
             <ImageView
@@ -89,7 +75,7 @@
         <LinearLayout
             android:layout_width="133dp"
             android:layout_height="match_parent"
-            android:onClick="roomservice"
+
             android:orientation="vertical">
 
             <ImageView
@@ -107,10 +93,5 @@
                 android:textColor="#F62929"
                 android:textSize="10sp" />
         </LinearLayout>
-
     </LinearLayout>
-
-
-
-
 </LinearLayout>

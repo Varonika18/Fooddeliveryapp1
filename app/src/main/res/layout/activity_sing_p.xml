@@ -39,6 +39,8 @@
             android:ems="10"
             android:hint="Phone Number"
             android:inputType="textPersonName"
+            android:textColor="#FA3434"
+            android:textColorHint="#FA4A4A"
             tools:ignore="TouchTargetSizeCheck" />
 
         <EditText
@@ -50,6 +52,8 @@
             android:ems="10"
             android:hint="OTP"
             android:inputType="textPersonName"
+            android:textColor="#FA3434"
+            android:textColorHint="#FA4A4A"
             tools:ignore="TouchTargetSizeCheck" />
 
         <Button

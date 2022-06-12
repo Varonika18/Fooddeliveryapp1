@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import java.util.ArrayList;
 
@@ -34,5 +36,16 @@ public class MainActivity3 extends AppCompatActivity  {
 
         LinearLayoutManager layoutManager=new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
+    }
+
+
+    public void roomservice(View view) {
+        Intent intent=new Intent(this,MainActivity2.class);
+        startActivity(intent);
+    }
+
+    public void two(View view) {
+        Intent intent=new Intent(this,MainActivity5.class);
+        startActivity(intent);
     }
 }
